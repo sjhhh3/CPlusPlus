@@ -1,0 +1,24 @@
+﻿Build started 11/2/2015 12:15:04 AM.
+     1>Project "C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\CaptureEngine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Capture.cpp utils.cpp winmain.cpp PreviewWnd.cpp
+         Capture.cpp
+         utils.cpp
+         winmain.cpp
+         PreviewWnd.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Capture.res" Capture.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\Release\CaptureEngine.exe" /INCREMENTAL:NO /NOLOGO powrprof.lib d3d11.lib mf.lib mfplat.lib mfuuid.lib shlwapi.lib Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\Release\CaptureEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\Release\CaptureEngine.lib" /MACHINE:X86 /SAFESEH Release\Capture.res
+         Release\Capture.obj
+         Release\utils.obj
+         Release\winmain.obj
+         Release\PreviewWnd.obj
+         Generating code
+         Finished generating code
+         CaptureEngine.vcxproj -> C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\Release\CaptureEngine.exe
+     1>Done Building Project "C:\Wang\Research\Software_Development\VideoAnalysis_Project\CaptureEngine\CaptureEngine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.71
